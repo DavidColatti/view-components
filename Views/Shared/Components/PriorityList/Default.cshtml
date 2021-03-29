@@ -1,0 +1,9 @@
+﻿@model IEnumerable<TodoItemViewModel>
+
+<h3>Priority Items</h3>
+<ul>
+    @foreach (var todo in Model)
+    {
+        <li>@todo.Title</li>
+    }
+</ul>

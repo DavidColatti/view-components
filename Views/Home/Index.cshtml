@@ -1,1 +1,9 @@
-﻿<div>App</div>
+﻿<div>
+    @await Component.InvokeAsync("PriorityList", new { param = "Testing params 1" })
+</div>
+<div>
+    @await Component.InvokeAsync("PriorityList", new { param = "Testing params 2" })
+</div>
+<div>
+    @await Component.InvokeAsync("PriorityList", new { param = "Testing params 3" })
+</div>
